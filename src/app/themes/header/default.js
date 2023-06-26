@@ -5,7 +5,7 @@ export const headerTheme = {
             styleOverrides: {
                 root: {
                     color: '#475259',
-                    background: '#F5F7FA'
+                    background: '#3c4048'
                 }
             }
         },
@@ -71,14 +71,14 @@ export const headerTheme = {
             secondary: '#8595A6',
             disabled: '#A2B2C3',
         },
-        divider: '#DEE2E6',
+        divider: '#FF5733',
         background: {
-            paper: '#FFFFFF',
-            default: '#F5F7FA',
+            paper: '#FF5733',
+            default: '#FF5733',
         },
         action: {
-            active: '#475259',
-            hover: '#F5F7FA',
+            active: '#FF5733',
+            hover: '#FF5733',
         },
     },
 };

@@ -23,7 +23,7 @@ const init = (activeLayoutConfig) => {
         },
         sidebar: {
             hide: false,
-            width: 240,
+            width: 300,
             minWidth: 80,
             variant: SIDEBAR_VARIANTS.PERSISTENT,
             style: SIDEBAR_STYLES.FULL_HEIGHT,

@@ -9,8 +9,8 @@ const JumboAppTextField = (props) => {
         <TextField
             {...props}
             {...field}
-            helperText={errorText}
-            error={!!errorText}
+            // helperText={errorText}
+            // error={!!errorText}
         />
     );
 };

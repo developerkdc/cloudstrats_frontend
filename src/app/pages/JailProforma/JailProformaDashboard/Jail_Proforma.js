@@ -1,9 +1,8 @@
 import React from "react";
 import { Button, Typography, useMediaQuery } from "@mui/material";
 import Div from "@jumbo/shared/Div/Div";
-import OrganizationalDossierTable from "./OrganizationalDossierList";
-
-const Organizational_Dossier = () => {
+import JailProformaTable from "./JailProformaList";
+const Jail_Proforma = () => {
   const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
 
   return (
@@ -51,15 +50,15 @@ const Organizational_Dossier = () => {
               p: isMobile ? 0.5 : null,
             }}
           >
-            Add Organizational Dossier
+            Add Jail Proforma
           </Button>
         </Div>
       </Div>
       <Div sx={isMobile ? { maxWidth: "100%" ,mt:3} : {mt:5}}>
-        <OrganizationalDossierTable/>
+        <JailProformaTable />
       </Div>
     </Div>
   );
 };
 
-export default Organizational_Dossier;
+export default Jail_Proforma;

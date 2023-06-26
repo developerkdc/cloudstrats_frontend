@@ -4,8 +4,8 @@ export const sidebarTheme = {
     type: "light",
     palette: {
         primary: {
-            main: '#7352C7',
-            light: '#A67FFB',
+            main: '#eaeaea',
+            light: '#eaeaea',
             dark: '#5E3BB7',
             contrastText: '#FFF'
         },
@@ -40,28 +40,28 @@ export const sidebarTheme = {
             contrastText: '#FFF'
         },
         text: {
-            primary: '#475259',
+            primary: '#eaeaea',
             secondary: '#8595A6',
             disabled: '#A2B2C3',
         },
         nav: {
             action: {
-                active: '#7352C7',
-                hover: '#7352C7',
+                active: '#eaeaea',
+                hover: '#eaeaea',
             },
             background: {
-                active: alpha('#7352C7', .15),
-                hover: "#E9ECEF"
+                active: alpha('#eaeaea', .15),
+                hover: "#00abb3"
             },
             tick: {
-                active: '#7352C7',
-                hover: "#ADB5BD"
+                active: '#eaeaea',
+                hover: "#eaeaea"
             }
         },
         divider : '#DEE2E6',
         background: {
-            paper: '#FFFFFF',
-            default: '#F5F7FA',
+            paper: '#3c4048',
+            default: '#3c4048',
         },
         action: {
             active: '#475259',

@@ -5,8 +5,9 @@ import Users from "app/pages/Users/Users";
 import Customers from "app/pages/Customer/Customers";
 import Individual_Dossier from "app/pages/IndividualDossier/Individual_Dossier";
 import Organizational_Dossier from "app/pages/OrganizationalDossier/Organizational_Dossier";
-import Jail_Proforma from "app/pages/JailProforma/Jail_Proforma";
-import Visitor_Details from "app/pages/JailProforma/Visitor_Details";
+import Jail_Proforma from "app/pages/JailProforma/JailProformaDashboard/Jail_Proforma";
+import Visitor_Details from "app/pages/JailProforma/VisitorDetails/Visitor_Details";
+import AddIndividual from "app/pages/AddIndividual/AddIndividual";
 
 /**
  routes which you want to make accessible to both authenticated and anonymous users
@@ -40,7 +41,10 @@ const routesForPublic = [
         path: "/visitor_details",
         element: <Page component={Visitor_Details} />
     },
-    
+    {
+        path: "/add_individual",
+        element: <Page component={AddIndividual} />
+    },
 ];
 
 /**
